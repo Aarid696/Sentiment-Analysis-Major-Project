@@ -32,4 +32,3 @@ from sklearn.metrics import accuracy_score,classification_report,confusion_matri
 select = st.text_input('Enter your message')
 op = text_model.predict([select])
 st.title(op[0])
-
